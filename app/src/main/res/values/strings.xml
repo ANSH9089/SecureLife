@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SecureLife</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="title_activity_about_us">about_us</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_critical">critical</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="about_college">
+SecureLife society pioneers a modernized living experience through its innovative features. A personalized chat app facilitates seamless community interaction, fostering a sense of belonging among residents. One standout feature is the flat price prediction, empowering homeowners with valuable insights into the real estate market.
+
+Security takes center stage as the environment ensures controlled visitor access via mobile authorization, instilling convenience and peace of mind. The inclusion of a "Remind Me" button enhances user engagement by delivering timely notifications, while an image slider captivates with visual appeal.
+
+Further elevating the community living experience is the integration of Google Maps. Residents can effortlessly navigate within the society, leveraging this tool for convenient and efficient travel. SecureLife not only redefines the conventional notion of housing but also lays the foundation for a technologically advanced and harmonious living environment. Embrace the future of community living with the multifaceted and user-centric SecureLife app.</string>
+
+
+</resources>

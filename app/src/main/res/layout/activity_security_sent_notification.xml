@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adminbkd"
+    tools:context=".SecuritySentNotificationActivity">
+
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/security"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="40dp"
+        />
+
+    <EditText
+        android:id="@+id/visitor_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_applogo"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        />
+    <EditText
+        android:id="@+id/visitor_reason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitor_username_input"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Reason to meet"
+        android:inputType="text"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        />
+    <EditText
+        android:id="@+id/visitor_block_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitor_reason"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Block No"
+        android:inputType="text"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        />
+
+    <EditText
+        android:id="@+id/visitor_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitor_block_no"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        android:layout_marginTop="6dp"
+        />
+
+
+    <TextView
+        android:id="@+id/security_entry_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitor_phone_number_input"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:text="Select time of entering :"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        />
+    <TextView
+        android:id="@+id/security_depart_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_entry_time"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="6dp"
+        android:text="Select time of depart :"
+        android:textColor="#02066F"
+        android:textColorHint="#02066F"
+        android:textSize="19sp"
+        />
+
+
+    <ImageView
+        android:id="@+id/pickEntryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/visitor_phone_number_input"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="29dp"
+        android:layout_toEndOf="@+id/security_entry_time"
+        android:contentDescription="Calendar Image"
+        android:src="@drawable/ic_calendar" />
+
+    <ImageView
+        android:id="@+id/pickDepartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_entry_time"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="33dp"
+        android:layout_toEndOf="@+id/security_depart_time"
+        android:contentDescription="Calendar Image"
+        android:src="@drawable/ic_calendar" />
+
+    <Button
+        android:id="@+id/visitor_register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/security_depart_time"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button"
+        android:padding="17dp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Take Approval"
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment android:id="@+id/navigation_home"
+        android:name="com.example.securelife.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"/>
+    <fragment android:id="@+id/navigation_notice"
+        android:name="com.example.securelife.ui.notice.noticeFragment"
+        android:label="Notice"
+        tools:layout="@layout/fragment_notice"/>
+    <fragment android:id="@+id/navigation_Visitors"
+        android:name="com.example.securelife.ui.visitors.visitorsFragment"
+        android:label="Visitors"
+        tools:layout="@layout/fragment_visitors"/>
+    <fragment android:id="@+id/navigation_predictor"
+        android:name="com.example.securelife.ui.predictor.PredictorFragment"
+        android:label="Predictor"
+        tools:layout="@layout/fragment_predictor"/>
+</navigation>

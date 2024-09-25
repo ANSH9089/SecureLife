@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loginbkd">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="541dp"
+        android:text="Login in to enter the society"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+
+    <EditText
+        android:id="@+id/login_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_password_input"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:textColor="@color/white"
+        android:background="@drawable/edittext_background"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColorHint="#FFFF"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/login_block"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/login_password_input"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="113dp"
+        android:background="@drawable/edittext_background"
+        android:hint="BlockNo"
+        android:inputType="text"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFF"
+        android:textSize="19sp" />
+
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="191dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColorHint="#FFFF"
+        android:textSize="19sp" />
+
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="111dp"
+        android:text="Login " />
+
+    <com.rey.material.widget.CheckBox
+        android:id="@+id/remember_me_chkb"
+        style="@style/Material.Drawable.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="113dp"
+        android:gravity="center_vertical"
+        android:text="Remember me"
+        android:textColor="#FFFF"
+        android:textSize="18sp"
+        app:cbd_strokeColor="#FFFF" />
+
+    <TextView
+        android:id="@+id/namu2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="244dp"
+        android:layout_marginBottom="59dp"
+        android:text="Forget?"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/namu"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="17dp"
+        android:text="For Register"
+        android:textColor="#FFFF"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/clickHere"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="17dp"
+        android:text="Click Here"
+        android:textColor="#00008B"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+
+</RelativeLayout>

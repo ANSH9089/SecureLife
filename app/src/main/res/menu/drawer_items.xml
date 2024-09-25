@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group
+        android:id="@+id/group1">
+
+        <item
+            android:icon="@drawable/ic_chat"
+            android:id="@+id/navChat"
+            android:title="Chat"/>
+        <item
+            android:icon="@drawable/ic_theme"
+            android:id="@+id/navTheme"
+            android:title="Theme"/>
+        <item
+            android:icon="@drawable/ic_developer"
+            android:id="@+id/navDeveloper"
+            android:title="Developer"/>
+        <item
+            android:icon="@drawable/ic_website"
+            android:id="@+id/navWebsite"
+            android:title="Website"/>
+    </group>
+
+<group
+    android:id="@+id/group2">
+    <item
+        android:icon="@drawable/ic_share"
+        android:id="@+id/navShare"
+        android:title="Share Us"/>
+    <item
+        android:icon="@drawable/baseline_star_rate_24"
+        android:id="@+id/navRateUs"
+        android:title="Rate Us"/>
+    <item
+        android:icon="@drawable/logout"
+        android:id="@+id/navLogOut"
+        android:title="Log Out"/>
+
+</group>
+
+
+
+</menu>

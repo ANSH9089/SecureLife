@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="20dp"
+    android:layout_marginStart="15dp"
+    android:layout_marginEnd="15dp"
+    app:cardElevation="15dp">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner">
+
+    <LinearLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/setimage"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:src="@drawable/photocamera"
+            app:civ_border_color="@color/white"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:civ_border_width="@dimen/_2sdp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.226" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Person Name"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#FFFF"
+            />
+
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_name"
+            android:text="Working Palace Address"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+        <TextView
+            android:id="@+id/user_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_address"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+        <TextView
+            android:id="@+id/user_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_description"
+            android:text="Contact Number"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            />
+
+
+        <TextView
+            android:id="@+id/user_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_contact"
+            android:text="Status"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

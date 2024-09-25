@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/residentbdk">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="585dp"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:text="Tell ME The Phone Number and Arrival time of the user leaving"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/VisitorRemovalPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="455dp"
+        android:background="@drawable/edittext_background"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="#FFFF"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/visitor_removal_entry_time"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/btn2"
+        android:padding="20dp"
+        android:text="Select time of entering :"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/main_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="162dp"
+        android:text="Login " />
+
+    <ImageView
+        android:id="@+id/pickEntryTime"
+        android:layout_width="95dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="27dp"
+        android:contentDescription="Calendar Image"
+        android:src="@drawable/ic_calendar" />
+
+
+</RelativeLayout>
